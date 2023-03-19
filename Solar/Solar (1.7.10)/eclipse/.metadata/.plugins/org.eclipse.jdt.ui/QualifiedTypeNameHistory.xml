@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.orange.plump.Nova.gui.preview.KeystrokesPreview"/>
+    <fullyQualifiedTypeName name="org.lwjgl.input.Keyboard"/>
+    <fullyQualifiedTypeName name="com.orange.plump.Nova.modules.ArmorHUDModule"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.renderer.texture.TextureManager"/>
+    <fullyQualifiedTypeName name="com.orange.plump.Nova.gui.preview.ArmorHUDPreview"/>
+    <fullyQualifiedTypeName name="com.orange.plump.Nova.Nova"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+    <fullyQualifiedTypeName name="com.orange.plump.Nova.cape.ClientThread"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="com.orange.plump.Nova.cape.Cape"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
+    <fullyQualifiedTypeName name="java.util.Enumeration"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.audio.PositionedSound"/>
+    <fullyQualifiedTypeName name="net.minecraft.item.ItemStack"/>
+    <fullyQualifiedTypeName name="net.minecraft.item.Item"/>
+    <fullyQualifiedTypeName name="com.orange.plump.Nova.gui.preview.PotCounterPreview"/>
+    <fullyQualifiedTypeName name="optifine.CapeUtils"/>
+    <fullyQualifiedTypeName name="java.awt.Desktop"/>
+    <fullyQualifiedTypeName name="java.net.URI"/>
+    <fullyQualifiedTypeName name="java.security.MessageDigest"/>
+    <fullyQualifiedTypeName name="java.security.NoSuchAlgorithmException"/>
+    <fullyQualifiedTypeName name="java.io.UnsupportedEncodingException"/>
+    <fullyQualifiedTypeName name="javax.crypto.Cipher"/>
+    <fullyQualifiedTypeName name="java.util.Base64"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="javax.crypto.spec.SecretKeySpec"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.net.Socket"/>
+    <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.DataInputStream"/>
+    <fullyQualifiedTypeName name="java.io.BufferedInputStream"/>
+    <fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.multiplayer.GuiConnecting"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.GuiNovaConnecting"/>
+    <fullyQualifiedTypeName name="com.orange.plump.Nova.MultiplayerConnectThread"/>
+    <fullyQualifiedTypeName name="java.awt.Color"/>
+    <fullyQualifiedTypeName name="com.orange.plump.Nova.gui.button.GuiToggleSwitch"/>
+    <fullyQualifiedTypeName name="org.lwjgl.opengl.GL11"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.ScaledResolution"/>
+    <fullyQualifiedTypeName name="com.orange.plump.Nova.gui.button.GuiCogButton"/>
+    <fullyQualifiedTypeName name="net.java.games.input.Mouse"/>
+    <fullyQualifiedTypeName name="org.lwjgl.input.Mouse"/>
+    <fullyQualifiedTypeName name="net.minecraft.client.gui.GuiMainMenu"/>
+</qualifiedTypeNameHistroy>

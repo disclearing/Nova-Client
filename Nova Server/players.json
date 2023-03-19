@@ -1,0 +1,20 @@
+{
+  "uuid": {
+    "whitelisted": false,
+    "banned": false,
+    "muted": false,
+    "playtime": {
+      "all": 0,
+      "daily": 0,
+      "weekly": 0,
+      "laston": 0
+    },
+    "ranks": [
+      "Default"
+    ],
+    "cosmetics": [
+      "Cape!URL"
+    ],
+    "discordid": "id"
+  }
+}

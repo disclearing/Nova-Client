@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="drawScreen" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="drawScreen"/>
+			<item value="shutdown"/>
+			<item value="96fbbe1e31bc42e2af6cb049762838b3"/>
+			<item value="c55b59884e9d4e1d839cce2bf8b99158"/>
+			<item value="15f0316d84f0404f84ff19fae1a0d289"/>
+			<item value="7b2d74f8e47c473991c1a54b5059f1dd"/>
+			<item value="5c6f503e51974425806a644431c31989"/>
+			<item value="7b7fb4bdf5e14e61af31e811fd286087"/>
+			<item value="b418ab71a2f142cfbff8101055e94d81"/>
+			<item value="4f69edb77fec49f281c9e0d131bc31c2"/>
+			<item value="742103ed21454adab8ea785e036a8898"/>
+			<item value="ec82b6b2fdf54c7b960297849a0fe364"/>
+			<item value="cape"/>
+			<item value="render"/>
+			<item value="9c24ef543add4563aad8383780bc0973"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="284" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="391" key="DIALOG_HEIGHT"/>
+		<item value="1064" key="DIALOG_X_ORIGIN"/>
+		<item value="184" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

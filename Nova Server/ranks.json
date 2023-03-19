@@ -1,0 +1,49 @@
+{
+  "ranks": [
+    "Founder",
+    "Admin",
+    "Staff",
+    "Tester",
+    "Media",
+    "Premium",
+    "Default"
+  ],
+  "Founder": {
+    "permissions": [
+      "*"
+    ]
+  },
+  "Admin": {
+    "permissions": [
+      "ban",
+      "screenshot"
+    ]
+  },
+  "Staff": {
+    "permissions": [
+      "mute",
+      "crash",
+      "report"
+    ]
+  },
+  "Tester": {
+    "permissions": [
+      ""
+    ]
+  },
+  "Media": {
+    "permissions": [
+      ""
+    ]
+  },
+  "Premium": {
+    "permissions": [
+      ""
+    ]
+  },
+  "Default": {
+    "permissions": [
+      ""
+    ]
+  }
+}

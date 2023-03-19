@@ -1,0 +1,219 @@
+<html>
+<head>
+     <title>Solar Client</title>
+     <author>Solar Client</author>
+     <link rel="stylesheet" href="index.css" />
+     <meta http-Equiv="Cache-Control" Content="no-cache" />
+    <meta http-Equiv="Pragma" Content="no-cache" />
+    <meta http-Equiv="Expires" Content="0" />
+</head>
+<body>
+     <div id="main">
+          <div class="form-popup" id="accountPopup">
+               <div class="header">
+                    <button id="close-popup" onclick="accountPopup()">x</button> 
+               </div>
+               <div class="form-container">
+                    <img src="pfp.png" id="pfp" draggable="false"></img>
+                    <h2 id="accountName"></h2>
+                    <button id="switchAccount" onclick="switchAccount()"><p>Switch Account</p></button>
+               </div>
+          </div>
+          <div class="form-popup" id="switchAccountPopup">
+               <div class="header">
+                    <button id="close-popup" onclick="resetAccountPopup()">&LeftArrow;</button> 
+               </div>
+               <div class="form-container">
+                    <h2 class="select-account">Select Account</h2>
+                    <div class="accounts" id="accountSelect">
+                        <div class="account-select"><button id="addAccount" onclick="loginPopup()">+ Add Account</button> </div>
+                    </div>
+                    
+               </div>
+          </div>
+          <div class="form-popup" id="loginPopup">
+               <div class="header">
+                    <button id="close-popup" onclick="resetAccountPopup()">&LeftArrow;</button> 
+               </div>
+               <div class="form-container">
+                    <label for="email">Email</label>
+                    <input id="email" type="text" placeholder="Enter Email" name="email" required>
+                    <label for="psw">Password</label>
+                    <input id="password" type="password" placeholder="Enter Password" name="psw" required>
+                    <button type="submit" class="btn" onclick="login()">Login</button>
+               </div>
+          </div>
+          <div class="form-popup" id="settingsPopup">
+               <div class="header">
+                    <button id="close-popup" onclick="settingsPopup()">x</button> 
+               </div>
+               <div class="form-container">
+                    <h2>Ram</h2>
+                    <p id="minRam">1</p>
+                    <input type="range" min="1" max="1" value="1" class="slider" id="ram" onchange="setRam(this.value)">
+                    <p id="maxRam">1</p>
+               </div>
+          </div>
+          <div id="title-bar">
+               <div id="title-bar-btns">
+                    <button id="login-btn" onclick="resetAccountPopup()">ACCOUNT</button>
+                    <button id="settings-btn" onclick="resetSettingsPopup()">SETTINGS</button>
+                    <button id="min-btn">–</button>
+                    <button id="close-btn">x</button>
+               </div>
+          </div>
+          <div id="content">
+               <div id="logo">
+                    <img id="logo-img" src="Nova.png" draggable="false" onclick="clicked()">
+               </div>
+          </div>
+          <div id="news">
+               <img src="loading.gif" width="50px">
+               <iframe id="inlineFrameExample"
+                    src="http://192.95.4.92/launchernews.html">
+               </iframe>
+          </div>
+          <div id="footer">
+               <p id="left">Solar Client &COPY;</p>
+               <p id="right">Not  Affliated  With  Mojang  AB</p>
+          </div>
+          <div id="launch">
+               <div id="launch-btn"onclick="launch()">
+                    <img src="launch.png" draggable="false">
+                    <p id="launch-txt">LAUNCH</p>
+                    <img id="loading" src="loading.gif" draggable="false">
+               </div>
+          </div>   
+     </div>
+
+    <script src="html.js"></script>
+    <script src="index.js"></script>
+    <script>
+         var opn = require('opn');
+         var si = require('systeminformation');
+
+         function clicked() {
+              opn('https://discord.gg/DPpBg6Z');
+         }
+          function accountPopup() {
+               if (document.getElementById("accountPopup").style.display == "block") {
+                    //Close
+                    document.getElementById("accountPopup").style.display = "none";
+               } else {
+                    //Open
+                    document.getElementById("accountPopup").style.display = "block";
+
+               }
+          }
+
+          function settingsPopup() {
+               if (document.getElementById("settingsPopup").style.display == "block") {
+                    //Close
+                    document.getElementById("settingsPopup").style.display = "none";
+               } else {
+                    //Open
+                    document.getElementById("settingsPopup").style.display = "block";
+
+               }
+          }
+
+          function switchAccount() {
+               //Close Account Menu
+               document.getElementById("accountPopup").style.display = "none";
+               //Open Switch Account Menu
+               document.getElementById("switchAccountPopup").style.display = "block";
+          }
+
+          function loginPopup() {
+               //Close Switch Account Menu
+               document.getElementById("switchAccountPopup").style.display = "none";
+               //Open Login Menu
+               document.getElementById("loginPopup").style.display = "block";
+          }
+
+          function resetAccountPopup() {
+               //Close Switch Account / Login Menu
+               document.getElementById("switchAccountPopup").style.display = "none";
+               document.getElementById("loginPopup").style.display = "none";
+               //Open Account Menu
+               document.getElementById("accountPopup").style.display = "block";
+          }
+
+          function resetSettingsPopup() {
+               document.getElementById("settingsPopup").style.display = "block";
+          }
+
+          function setRam(amount) {
+               amount = parseInt(amount);
+               fs.readFile('./info.json', 'utf8', (err, jsonString) => {
+                    const config = JSON.parse(jsonString);
+                    config.ram = amount;
+                    fs.writeFileSync('./info.json', JSON.stringify(config, null, 2));
+               });
+          }
+
+          si.mem((mem) => {
+               const ram = Math.floor((mem.total / 1000000000));
+               document.getElementById("ram").max = ram;
+               document.getElementById("maxRam").innerText = (ram).toString();
+               fs.readFile('./info.json', 'utf8', (err, jsonString) => {
+                    const config = JSON.parse(jsonString);
+                    document.getElementById("ram").value = config.ram.toString();
+               });
+          })
+
+          fs.readFile('./info.json', 'utf8', (err, jsonString) => {
+               if (err) {
+                    console.log("File read failed:", err)
+                    return
+               }
+               const config = JSON.parse(jsonString);
+               const selected = config.selected;
+               if (selected == "") {
+
+               } else {
+                    document.getElementById("pfp").src = "https://visage.surgeplay.com/face/" + selected;
+                    document.getElementById("accountName").innerText = config.accounts [selected].displayName;
+                    const accountSelect = document.getElementById("accountSelect");
+               }
+
+                    var accounts = Object.entries(config.accounts);
+
+                    for (var i = 0; i < accounts.length; i++) {
+                         var accountData = accounts[i];
+                         var account = document.createElement("div");
+                         account.className = "account-select";
+                         account.id = accountData[0];
+                         account.addEventListener("click", (e) => selectAccount(event));
+                         var accountButton = document.createElement("button");
+                         var accountJson = config.accounts [accountData[0]];
+                         accountButton.innerText = accountJson.displayName;
+                         account.appendChild(accountButton);
+                         accountSelect.appendChild(account);
+                    }
+          })
+
+          function selectAccount(e) {
+               var uuid = e.path[1].id;
+               if (uuid == "accountSelect") {
+                    uuid = e.path[0].id;
+               }
+               console.log(e);
+               fs.readFile('./info.json', 'utf8', (err, jsonString) => {
+                    const config = JSON.parse(jsonString);
+                    config.selected = uuid;
+                    const selected = config.selected;
+                    document.getElementById("pfp").src = "https://visage.surgeplay.com/face/" + selected;
+                    document.getElementById("accountName").innerText = config.accounts [selected].displayName;
+                    resetAccountPopup();
+                    fs.writeFileSync('./info.json', JSON.stringify(config, null, 2));
+               });
+
+               
+
+          }
+          
+    </script>
+
+</body>
+</html>

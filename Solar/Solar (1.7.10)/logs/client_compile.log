@@ -1,0 +1,9 @@
+src\minecraft\net\minecraft\util\ScreenShotHelper.java:15: warning: IntegerArray is internal proprietary API and may be removed in a future release
+import com.sun.org.apache.xalan.internal.xsltc.util.IntegerArray;
+                                                   ^
+src\minecraft\com\orange\plump\Solar\RadioThread.java:43: warning: [deprecation] stop() in Thread has been deprecated
+		if (Solar.radioThread != null) Solar.radioThread.stop();
+		                                                ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 warnings

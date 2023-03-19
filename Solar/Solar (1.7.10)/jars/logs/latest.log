@@ -1,0 +1,97 @@
+[22:58:30] [main/INFO]: Player621
+[22:58:30] [main/INFO]: token:0:Player621
+[22:58:30] [main/INFO]: 0
+[22:58:30] [main/INFO]: Player621
+[22:58:30] [main/INFO]: Setting user: Player621
+[22:58:30] [main/INFO]: (Session ID is token:0:Player621)
+[22:58:31] [Client thread/INFO]: LWJGL Version: 2.9.1
+[22:58:32] [Client thread/INFO]: Reloading ResourceManager: Default
+[22:58:34] [Sound Library Loader/INFO]: Sound engine started
+[22:58:38] [Client thread/ERROR]: ########## GL ERROR ##########
+[22:58:38] [Client thread/ERROR]: @ Pre startup
+[22:58:38] [Client thread/ERROR]: 1280: Invalid enum
+[22:58:40] [Client thread/INFO]: Created: 1024x512 textures/blocks-atlas
+[22:58:40] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[22:58:40] [Client thread/ERROR]: ########## GL ERROR ##########
+[22:58:40] [Client thread/ERROR]: @ Post startup
+[22:58:40] [Client thread/ERROR]: 1280: Invalid enum
+[22:59:54] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[22:59:54] [Server thread/INFO]: Generating keypair
+[22:59:54] [Server thread/INFO]: Preparing start region for level 0
+[22:59:55] [Server thread/INFO]: Changing view distance to 8, from 10
+[22:59:55] [Server thread/INFO]: Player621[local:E:2fc29f51] logged in with entity id 285 at (-2.5, 61.0, -24.5)
+[22:59:55] [Server thread/INFO]: Player621 joined the game
+[23:00:03] [Server thread/INFO]: Saving and pausing game...
+[23:00:03] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/Overworld
+[23:00:03] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/Nether
+[23:00:03] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/The End
+[23:00:21] [Server thread/INFO]: Saving and pausing game...
+[23:00:21] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/Overworld
+[23:00:21] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/Nether
+[23:00:21] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/The End
+[23:01:12] [Server thread/INFO]: Saving and pausing game...
+[23:01:12] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/Overworld
+[23:01:12] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/Nether
+[23:01:12] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/The End
+[23:02:03] [Server thread/INFO]: Saving and pausing game...
+[23:02:03] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/Overworld
+[23:02:03] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/Nether
+[23:02:03] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/The End
+[23:02:17] [Client thread/INFO]: [CHAT] You do not have permission to use this command
+[23:02:18] [Server thread/INFO]: Saving and pausing game...
+[23:02:18] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/Overworld
+[23:02:19] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/Nether
+[23:02:19] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/The End
+[23:02:19] [Server thread/INFO]: Stopping server
+[23:02:19] [Server thread/INFO]: Saving players
+[23:02:19] [Server thread/INFO]: Saving worlds
+[23:02:19] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/Overworld
+[23:02:19] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/Nether
+[23:02:19] [Server thread/INFO]: Saving chunks for level ':crossed_swords:Survival World'/The End
+[23:02:21] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[23:02:21] [Server thread/INFO]: Generating keypair
+[23:02:21] [Server thread/INFO]: Preparing start region for level 0
+[23:02:21] [Server thread/INFO]: Changing view distance to 8, from 10
+[23:02:21] [Server thread/INFO]: Player621[local:E:c1533085] logged in with entity id 5665 at (2761.5288643970366, 75.39094542491365, 6440.917577389698)
+[23:02:21] [Server thread/INFO]: Player621 joined the game
+[23:03:42] [Server thread/INFO]: Saving and pausing game...
+[23:03:42] [Server thread/INFO]: Saving chunks for level 'Nova'/Overworld
+[23:03:42] [Server thread/INFO]: Saving chunks for level 'Nova'/Nether
+[23:03:42] [Server thread/INFO]: Saving chunks for level 'Nova'/The End
+[23:03:58] [Server thread/INFO]: Saving and pausing game...
+[23:03:58] [Server thread/INFO]: Saving chunks for level 'Nova'/Overworld
+[23:03:58] [Server thread/INFO]: Saving chunks for level 'Nova'/Nether
+[23:03:58] [Server thread/INFO]: Saving chunks for level 'Nova'/The End
+[23:04:02] [Server thread/INFO]: Saving and pausing game...
+[23:04:02] [Server thread/INFO]: Saving chunks for level 'Nova'/Overworld
+[23:04:02] [Server thread/INFO]: Saving chunks for level 'Nova'/Nether
+[23:04:02] [Server thread/INFO]: Saving chunks for level 'Nova'/The End
+[23:04:07] [Server thread/INFO]: Saving and pausing game...
+[23:04:07] [Server thread/INFO]: Saving chunks for level 'Nova'/Overworld
+[23:04:07] [Server thread/INFO]: Saving chunks for level 'Nova'/Nether
+[23:04:07] [Server thread/INFO]: Saving chunks for level 'Nova'/The End
+[23:04:12] [Server thread/INFO]: Saving and pausing game...
+[23:04:12] [Server thread/INFO]: Saving chunks for level 'Nova'/Overworld
+[23:04:12] [Server thread/INFO]: Saving chunks for level 'Nova'/Nether
+[23:04:12] [Server thread/INFO]: Saving chunks for level 'Nova'/The End
+[23:04:24] [Server thread/INFO]: Saving and pausing game...
+[23:04:24] [Server thread/INFO]: Saving chunks for level 'Nova'/Overworld
+[23:04:24] [Server thread/INFO]: Saving chunks for level 'Nova'/Nether
+[23:04:24] [Server thread/INFO]: Saving chunks for level 'Nova'/The End
+[23:07:29] [Server thread/INFO]: Saving and pausing game...
+[23:07:29] [Server thread/INFO]: Saving chunks for level 'Nova'/Overworld
+[23:07:29] [Server thread/INFO]: Saving chunks for level 'Nova'/Nether
+[23:07:29] [Server thread/INFO]: Saving chunks for level 'Nova'/The End
+[23:11:04] [Server thread/INFO]: Saving and pausing game...
+[23:11:04] [Server thread/INFO]: Saving chunks for level 'Nova'/Overworld
+[23:11:04] [Server thread/INFO]: Saving chunks for level 'Nova'/Nether
+[23:11:04] [Server thread/INFO]: Saving chunks for level 'Nova'/The End
+[23:18:29] [Server thread/INFO]: Saving and pausing game...
+[23:18:29] [Server thread/INFO]: Saving chunks for level 'Nova'/Overworld
+[23:18:29] [Server thread/INFO]: Saving chunks for level 'Nova'/Nether
+[23:18:29] [Server thread/INFO]: Saving chunks for level 'Nova'/The End
+[23:18:29] [Client thread/INFO]: Stopping!
+[23:18:29] [Server thread/INFO]: Stopping server
+[23:18:29] [Server thread/INFO]: Saving players
+[23:18:29] [Server thread/INFO]: Saving worlds
+[23:18:29] [Server thread/INFO]: Saving chunks for level 'Nova'/Overworld

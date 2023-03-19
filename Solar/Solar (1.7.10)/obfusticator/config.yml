@@ -1,0 +1,23 @@
+input: Solar.jar
+output: "Solar 1.0 Alpha.jar"
+
+mask:
+ include:
+  - com/
+
+ exclude:
+  - net/minecraft/client/main/
+  - net/minecraft/client/main/ClientBrandRetriever
+  - net/minecraft/realms/
+  - net/minecraft/server/MinecraftServer*
+  - optifine/
+  - com/orange/plump/Nova/ClientThread
+  - com/orange/plump/Nova/RadioThread
+  - com/orange/plump/Nova/Station
+
+libraries:
+  - libraries/
+
+flags:
+  corruption: false
+  anti_decompression: false

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Solar 1.0 Alpha">
+    <output-path>$PROJECT_DIR$/out/artifacts/Solar_1_0_Alpha</output-path>
+    <root id="archive" name="Solar 1.0 Alpha.jar">
+      <element id="module-output" name="Client" />
+      <element id="extracted-dir" path="$MCP_LOC$/lib/jlayer-1.0.1-SNAPSHOT.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

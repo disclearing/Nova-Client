@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jlayer-1.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MCP_LOC$/lib/jlayer-1.0.1-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

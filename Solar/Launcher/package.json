@@ -1,0 +1,41 @@
+{
+  "name": "plump-orange",
+  "version": "1.0.0",
+  "description": "Solar Client Launcher",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . \"Solar Client\" --overwrite --platform=darwin --arch=x32 --icon=Nova.ico --prune=true --out=release-builds",
+    "package-win": "electron-packager . \"Solar Launcher\" --asar --icon=Nova.ico --overwrite",
+    "package-win32": "electron-packager . \"Solar Launcher\" --asar --arch=ia32 --icon=Nova.ico --overwrite",
+    "package-linux": "electron-packager . \"Solar Launcher\" --asar --platform=linux --icon=Nova.ico"
+  },
+  "author": "Solar Client",
+  "devDependencies": {
+    "electron": "^5.0.13",
+    "electron-packager": "^14.1.1"
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.13",
+    "bufferutil": "^4.0.1",
+    "core-js": "^3.6.4",
+    "crypto-js": "^3.1.9-1",
+    "discord-rich-presence": "0.0.8",
+    "minecraft-launcher-core": "^3.11.6",
+    "node-jquery": "^0.1.0",
+    "opn": "^6.0.0",
+    "package-lock.json": "^1.0.0",
+    "systeminformation": "^4.17.2",
+    "utf-8-validate": "^5.0.2"
+  },
+  "build": {
+    "appId": "com.orange.plump.NovaLauncher",
+    "productName": "Solar Launcher",
+    "mac": {
+      "category": "your.app.category.type"
+    },
+    "win": {
+      "target": "portable"
+    }
+  }
+}
